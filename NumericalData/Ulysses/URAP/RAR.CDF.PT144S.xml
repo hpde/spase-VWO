@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd'">
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VWO/NumericalData/Ulysses/URAP/RAR.CDF.PT144S</ResourceID>
         <ResourceHeader>
@@ -7,8 +7,8 @@
             <AlternateName>Ulysses Unified Radio and Plasma Wave Experiment - Radio Astronomy Receiver 144 Second Resolution Data</AlternateName>
             <AlternateName>UY_M0_R144</AlternateName>
             <ReleaseDate>2012-02-24T17:45:04Z</ReleaseDate>
-            <Description>This data set contains 144 second averages of the electric field 
-intensities from the Unified Radio and Plasma Wave 
+            <Description>This data set contains 144 second averages of the electric field
+intensities from the Unified Radio and Plasma Wave
 Instrument Radio Astronomy Receiver.
 
 Units are microVolt/Hz**0.5 measured at the
@@ -72,7 +72,7 @@ has operated in measure mode or in in linear mode with less than
 
 Besides the intensity of a signal reaching the spacecraft, the
 RAR can also, when operated in particular modes, determine
-additional information about the source of the radiation, 
+additional information about the source of the radiation,
 including its direction relative to the location of Ulysses, its
 angular size, and its polarization.  This is most efficiently
 done with the signal from the X and Z axis antennas summed
@@ -84,7 +84,7 @@ mode of high and low frequency receivers is given in the data as
 either summed (X and Z antenna combined) or separate (X antenna
 alone).
 
-Reference: Astron. Astrophys. Suppl. 
+Reference: Astron. Astrophys. Suppl.
 Ser., 92(2), 291-316 (1992).
 
 
@@ -111,8 +111,6 @@ Ser., 92(2), 291-316 (1992).
                 <Description/>
                 <Language>en</Language>
             </InformationURL>
-            <Association/>
-            <PriorID/>
             <PriorID>spase://VWO/NumericalData/Ulysses/URAP/Ulysses_RAR_PT144S</PriorID>
         </ResourceHeader>
         <AccessInformation>
@@ -122,7 +120,7 @@ Ser., 92(2), 291-316 (1992).
             <AccessURL>
                 <Name>FTP access to files at SPDF</Name>
                 <URL>ftp://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap_cdaweb/r144_m0/</URL>
-                <Description>FTP access to repository of Ulysses/URAP RAR 144 CDFs at NASA 
+                <Description>FTP access to repository of Ulysses/URAP RAR 144 CDFs at NASA
 CDAWeb.Name of the data resource: UY_M0_R144</Description>
                 <Language>en</Language>
             </AccessURL>
@@ -134,8 +132,9 @@ CDAWeb.Name of the data resource: UY_M0_R144</Description>
             <AccessURL>
                 <Name>CDAWeb</Name>
                 <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
-                <Description>Repository of Ulysses/URAP RAR data in CDF format at NASA CDAWeb, 
-accessible via web interface. Name of the data resource: 
+                <ProductKey>UY_M0_R144</ProductKey>
+                <Description>Repository of Ulysses/URAP RAR data in CDF format at NASA CDAWeb,
+accessible via web interface. Name of the data resource:
 UY_M0_R144.</Description>
                 <Language>en</Language>
             </AccessURL>
@@ -159,7 +158,7 @@ UY_M0_R144.</Description>
         <ObservedRegion>Heliosphere.Outer</ObservedRegion>
         <ObservedRegion>Jupiter</ObservedRegion>
         <ObservedRegion>Sun.Corona</ObservedRegion>
-        <Caveats>Ulyssses URAP Interference and other issues affecting data interpretation - see 
+        <Caveats>Ulyssses URAP Interference and other issues affecting data interpretation - see
         Ulysses URAP - Interference and other issues affecting data interpretation
 http://vwo.nasa.gov/urap/URAP_InterpretationIssues/urap_interpretation.html
 and
@@ -235,8 +234,8 @@ http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
         </Parameter>
         <Parameter>
             <Name>Low frequency polarization mode</Name>
-      <!-- 
- Parameter Key points to the CDF Variable in the file 
+      <!--
+ Parameter Key points to the CDF Variable in the file
   -->
             <ParameterKey>Lo_pol_mode</ParameterKey>
             <Description>Low frequency polarization mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
@@ -248,8 +247,8 @@ http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
         </Parameter>
         <Parameter>
             <Name>Low frequency summation mode</Name>
-      <!-- 
- Parameter Key points to the CDF Variable in the file 
+      <!--
+ Parameter Key points to the CDF Variable in the file
   -->
             <ParameterKey>Lo_sum_mode</ParameterKey>
             <Description>Low frequency summation mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
@@ -261,8 +260,8 @@ http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
         </Parameter>
         <Parameter>
             <Name>High frequency polarization mode</Name>
-      <!-- 
- Parameter Key points to the CDF Variable in the file 
+      <!--
+ Parameter Key points to the CDF Variable in the file
   -->
             <ParameterKey>Hi_pol_mode</ParameterKey>
             <Description>High frequency polarization mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
@@ -274,8 +273,8 @@ http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
         </Parameter>
         <Parameter>
             <Name>High frequency summation mode</Name>
-      <!-- 
- Parameter Key points to the CDF Variable in the file 
+      <!--
+ Parameter Key points to the CDF Variable in the file
   -->
             <ParameterKey>Hi_sum_mode</ParameterKey>
             <Description>High frequency summation mode (1: on, 2: off, 3: switched, 4: unknown)</Description>
@@ -285,8 +284,8 @@ http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
         </Parameter>
         <Parameter>
             <Name>Telemetry bit rate</Name>
-      <!-- 
- Parameter Key points to the CDF Variable in the file 
+      <!--
+ Parameter Key points to the CDF Variable in the file
   -->
             <ParameterKey>IBPS</ParameterKey>
             <Description>Telemetry bit rate (1: 128, 2: 256, 3: 512, 4: 1024 bps, 5: changed, 6: unknown)</Description>
@@ -298,8 +297,8 @@ http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
         </Parameter>
         <Parameter>
             <Name>RAR Channel Frequencies (kHz)</Name>
-      <!-- 
- Parameter Key points to the CDF Variable in the file 
+      <!--
+ Parameter Key points to the CDF Variable in the file
   -->
             <ParameterKey>Chan_Freq</ParameterKey>
             <Description>RAR Channel Frequencies (kHz)</Description>
@@ -315,8 +314,8 @@ http://ulysses-ops.esa.int/ulysses/archive/urap_un.html
         </Parameter>
         <Parameter>
             <Name>RAR Electric field intensity</Name>
-      <!-- 
- Parameter Key points to the CDF Variable in the file 
+      <!--
+ Parameter Key points to the CDF Variable in the file
   -->
             <ParameterKey>Intensity</ParameterKey>
             <Description>RAR Electric field intensity in 76 channels</Description>

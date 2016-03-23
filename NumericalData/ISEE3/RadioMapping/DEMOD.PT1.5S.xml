@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
+  <Version>2.2.6</Version>
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/ISEE3/RadioMapping/DEMOD.PT1.5S</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE-3 Radio Mapping Experiment Demodulated - 1.5 sec resolution </ResourceName>
-      <ReleaseDate>2012-09-11T16:48:25Z</ReleaseDate>
+      <ReleaseDate>2015-03-23T19:00:00Z</ReleaseDate>
       <Description>
       The following is extracted from "User Guide for ISEE-3 Radio Mapping Experiment CD-ROM Data" the original document is available via the Information URL below.
 
@@ -100,7 +100,7 @@ Table 2-1.  ISEE-3 Radio Mapping Experiment Frequencies
       </Contact>
       <InformationURL>
         <Name>User Guide for ISEE-3 Radio Mapping Experiment CD-ROM Data</Name>
-        <URL>http://vwo.nasa.gov/utils/ISEE3_RadioMapping/ISEE3_radio_data_guide_2009.pdf</URL>
+        <URL>http://spdf.gsfc.nasa.gov/pub/data/isee/isee3/radio_mapping/DOCUMENT/ISEE3_radio_data_guide_2009.pdf</URL>
         <Description>by Robert J. MacDowall, version 1.2 - revised July 1, 2009</Description>
         <Language>en</Language>
       </InformationURL>
@@ -111,8 +111,8 @@ Table 2-1.  ISEE-3 Radio Mapping Experiment Frequencies
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>ISEE-3 Radio Mapping Experiment Demodulated 1.5 sec data.</Name>
-        <URL>http://vwo.nasa.gov/ISEE3/RadioMapping/demod/</URL>
-        <Description>Access to gzipped IEEE binary data files.</Description>
+        <URL>http://spdf.gsfc.nasa.gov/pub/data/isee/isee3/radio_mapping/DATA/</URL>
+        <Description>Access to gzipped IEEE binary data files of 1.5 second demodulated data. Beneath this directory are also 1.5 second modulated data and 108 second averaged data.</Description>
         <Language>en</Language>
       </AccessURL>
       <Format>Binary</Format>

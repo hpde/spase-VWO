@@ -171,6 +171,10 @@ http://ppi.pds.nasa.gov/citations_policy.jsp
         <PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
+	  <Contact>
+			 <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+			 <Role>MetadataContact</Role>
+	  </Contact>
       <InformationURL>
         <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
         <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
@@ -202,6 +206,20 @@ http://ppi.pds.nasa.gov/citations_policy.jsp
 PDS in accordance with the PDS citation policy. Full details can be found at:
 http://ppi.pds.nasa.gov/citations_policy.jsp</Acknowledgement>
     </AccessInformation>
+	<AccessInformation>
+		  <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
+		  <Availability>Online</Availability>
+		  <AccessRights>Open</AccessRights>
+		  <AccessURL>
+				 <Name>PDS/PPI</Name>
+				 <URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
+				 <ProductKey>VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</ProductKey>
+				 <Description>This collection is archived with NASA&apos;s Planetary Data System.</Description>
+				 <Language>En</Language>
+		 </AccessURL>
+		  <Format>Text.ASCII</Format>
+		  <Acknowledgement>NASA&apos;s Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS) and the P.I. for the data.</Acknowledgement>
+	</AccessInformation>
     <InstrumentID>spase://SMWG/Instrument/Voyager2/PRA</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <MeasurementType>Spectrum</MeasurementType>

@@ -1,7 +1,5 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
-  <Version>2.2.0</Version>
-  <!-- v1.4 October 12, 2010  -->
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
   <DisplayData>
     <ResourceID>spase://VWO/DisplayData/Cluster-Salsa/WBD/DS.GIF.PT30S</ResourceID>
     <ResourceHeader>
@@ -10,7 +8,7 @@
       <AlternateName>Cluster 2 WBD High Time Resolution Dynamic Spectrogram Plot</AlternateName>
       <AlternateName>Cluster 2 WBD 30s Survey Spectrograms</AlternateName>
       <AlternateName>C2_CG_WBD_GIFPLOT</AlternateName>
-      <ReleaseDate>2012-02-24T04:11:45Z</ReleaseDate>
+      <ReleaseDate>2017-03-08T15:23:45Z</ReleaseDate>
       <Description> 
 This dataset contains 30 s duration survey spectrogram plots from the WBD instrument on the Cluster spacecraft.  The spectrograms are created by 1024 point FFTs and plotted with frequency on the vertical axis, increasing time on the horizontal, and color indicating power spectral density, in relative dB. The AC electric field data are obtained by using one of the two 88m spin plane electric field antennas of the EFW instrument as a sensor. The AC magnetic field data are obtained by using one of the two search coil magnetometers (one in the spin plane, the other along the spin axis) of the STAFF instrument as a sensor. 
 
@@ -26,7 +24,7 @@ In the lower right-hand corner are the ephemeris values applicable to the start 
 
 The University of Iowa repository maintains two types of high time resolution spectrogram plots in GIF format: a ten minute (PT10M Display Cadence) and a 30 second time span (PT30S Display Cadence). Both types of files provide information on WBD gain and operational mode, the spectral data from one spacecraft, the start date and time and ephemeris data. Overview spectrograms are also available.
 
-The availability of these files depends on times of DSN and Pansak Ves ground station telemetry downlinks. A list of the status of the WBD instrument on each spacecraft, the telemetry time spans, operating modes and other details are available under Science Data Availability on the University of Iowa Cluster WBD web site at http://www-pw.physics.uiowa.edu/cluster/ and through the documentation section of the Cluster Active Archive (http://caa.estec.esa.int/caa). 
+The availability of these files depends on times of DSN and Pansak Ves ground station telemetry downlinks. A list of the status of the WBD instrument on each spacecraft, the telemetry time spans, operating modes and other details are available under Science Data Availability on the University of Iowa Cluster WBD web site at http://www-pw.physics.uiowa.edu/cluster/ and through the documentation section of the Cluster Science Archive (https://www.cosmos.esa.int/web/csa/documentation). 
  
 Details on Cluster WBD Interpretation Issues can be found at http://www-pw.physics.uiowa.edu/cluster/interpretation_issues/interpretation.html 
 For further details on the Cluster WBD data products see Pickett, J.S., et al., "Cluster Wideband Data Products in the Cluster Active Archive" in _The Cluster Active Archive_, 2010, Springer-Verlag, pp 169-183.            
@@ -49,16 +47,11 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
         <Language>en</Language>
       </InformationURL>
       <InformationURL>
-        <Name>Cluster Active Archive Documentation Page</Name>
-        <URL>http://caa.estec.esa.int/caa</URL>
+        <Name>Cluster Science Archive Documentation Page</Name>
+        <URL>https://www.cosmos.esa.int/web/csa/documentation</URL>
         <Description>Cluster WBD documentation with links to lists of coordinated observing times, science data availability catalogs, and data interpretation descriptions.</Description>
         <Language>en</Language>
       </InformationURL>
-      <!-- The following will point to Numerical Data Resources from which these files were derived -->
-      <Association>
-        <AssociationID/>
-      </Association>
-      <PriorID/>
       <PriorID>spase://VWO/DisplayData/Cluster-Salsa/WBD/CLUSTER_WBD_GIF_DS</PriorID>
     </ResourceHeader>
     <AccessInformation>
@@ -66,14 +59,14 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
       <Availability>Online</Availability>
       <AccessRights>Restricted</AccessRights>
       <AccessURL>
-        <Name>Cluster WBD High Time Resolution Survey Spectrograms</Name>
-        <URL>http://caa.estec.esa.int</URL>
-        <Description>Repository of WBD dynamic spectrogram images and data at ESA's Cluster Active Archive. </Description>
+        <Name>Cluster WBD Spectrograms (30-s intervals)</Name>
+        <URL>https://www.cosmos.esa.int/web/csa</URL>
+        <Description>Repository of WBD dynamic spectrogram images and data at ESA's Cluster Science Archive. </Description>
         <Language>en</Language>
       </AccessURL>
       <Format>GIF</Format>
       <Encoding>None</Encoding>
-      <Acknowledgement>Users please acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I  University of Iowa and ESA Cluster Active Archive for making these dynamic spectrograms available.</Acknowledgement>
+      <Acknowledgement>Users please acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I  University of Iowa and ESA Cluster Science Archive for making these dynamic spectrograms available.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>

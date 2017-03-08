@@ -1,14 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <!-- v1.4 October 12, 2010  -->
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
   <DisplayData>
     <ResourceID>spase://VWO/DisplayData/Cluster/WBD/Survey.PNG.PT2H</ResourceID>
     <ResourceHeader>
       <ResourceName>Cluster WBD Survey Dynamic Spectrogram Plot</ResourceName>
       <AlternateName>Cluster WBD Overview Spectrogram</AlternateName>
-      <AlternateName>CM_CP_WBD_SPECPLOT_OVERVIEW_PNG</AlternateName>
-      <ReleaseDate>2012-02-24T04:11:45Z</ReleaseDate>
+      <AlternateName>CM_CG_WBD_SPECPLOT_OVERVIEW_PNG</AlternateName>
+      <ReleaseDate>2017-03-07T21:26:45Z</ReleaseDate>
       <Description> 
 This dataset contains survey spectrogram plots of varying time durations from the WBD Plasma Wave Receivers on the four Cluster spacecraft. Due to the nature of the WBD real-time operations at the DSN, data from all four spacecraft are not always available. The time span of these plots varies based on the time span of the telemetry received in real-time from the DSN and Panska Ves ground stations and can range from 30 minutes to 8 hours, 2 hours being typical.             
 
@@ -44,15 +42,11 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
         <Language>en</Language>
       </InformationURL>
       <InformationURL>
-        <Name>Cluster Active Archive Documentation Page</Name>
-        <URL>http://caa.estec.esa.int/caa</URL>
+        <Name>Cluster Science Archive Documentation Page</Name>
+        <URL>https://www.cosmos.esa.int/web/csa/documentation</URL>
         <Description>Cluster WBD documentation with links to lists of coordinated observing times, science data availability catalogs, and data interpretation descriptions.</Description>
         <Language>en</Language>
       </InformationURL>
-      <!-- The following will point to Numerical Data Resources from which these files were derived -->
-      <Association>
-        <AssociationID/>
-      </Association>
       <PriorID/>
       <PriorID>spase://VWO/DisplayData/Cluster/WBD/CLUSTER_WBD_PNG_SURVEY_PLOTS</PriorID>
     </ResourceHeader>
@@ -62,13 +56,13 @@ For further details on the Cluster WBD data products see Pickett, J.S., et al., 
       <AccessRights>Restricted</AccessRights>
       <AccessURL>
         <Name>Cluster WBD Survey Spectrograms</Name>
-        <URL>http://caa.estec.esa.int</URL>
-        <Description>Repository of Cluster WBD dynamic spectrogram images and data at ESA's Cluster Active Archive. </Description>
+        <URL>https://www.cosmos.esa.int/web/csa</URL>
+        <Description>Repository of Cluster WBD dynamic spectrogram images and data at ESA's Cluster Science Archive. </Description>
         <Language>en</Language>
       </AccessURL>
       <Format>PNG</Format>
       <Encoding>None</Encoding>
-      <Acknowledgement>Users please acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I  University of Iowa and ESA Cluster Active Archive for making these dynamic spectrograms available.</Acknowledgement>
+      <Acknowledgement>Users please acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I  University of Iowa and ESA Cluster Science Archive for making these dynamic spectrograms available.</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</RepositoryID>

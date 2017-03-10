@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/Cluster-Tango/WHISPER/PT52S</ResourceID>
     <ResourceHeader>
       <ResourceName>Cluster 4 WHISPER Active Electric Power Spectral Density</ResourceName>
       <AlternateName>Cluster Tango WHISPER Electric Power Spectral Density under Sounding Mode</AlternateName>
       <AlternateName>C4_CP_WHI_ACTIVE</AlternateName>
-      <ReleaseDate>2012-11-02T04:00:48Z</ReleaseDate>
+      <ReleaseDate>2017-03-08T18:30:48Z</ReleaseDate>
       <Description>The Waves of HIgh frequency and Sounder for Probing of Electron density
 	 by Relaxation (WHISPER) performs the measurement of the electron density
 	 on the four satellites of the Cluster project. The two main purposes of
@@ -19,7 +18,7 @@
 	 allows a good dynamic and level resolution of the electric signal amplitude.
 </Description>
       <Acknowledgement>Users of the Cluster WHISPER data are encouraged to 
-acknowledge the instrument team and ESA Cluster Active Archive when using this data</Acknowledgement>
+acknowledge the instrument team and ESA Cluster Science Archive when using this data</Acknowledgement>
 		<Contact>
 			<PersonID>spase://SMWG/Person/Jean-Louis.Rauch</PersonID>
 			<Role>PrincipalInvestigator</Role>	
@@ -33,8 +32,8 @@ acknowledge the instrument team and ESA Cluster Active Archive when using this d
 		        <Role>FormerPI</Role>
 		</Contact>
       <InformationURL>
-        <Name>Cluster Active Archive Documentation Page</Name>
-        <URL>http://caa.estec.esa.int/caa</URL>
+        <Name>Cluster Science Archive Documentation Page</Name>
+        <URL>https://www.cosmos.esa.int/web/csa/documentation</URL>
         <Description></Description>
         <Language>en</Language>
       </InformationURL>
@@ -45,17 +44,17 @@ acknowledge the instrument team and ESA Cluster Active Archive when using this d
       <AccessRights>Restricted</AccessRights>
       <AccessURL>
         <Name>Access to Cluster WHISPER CEFs and CDFs</Name>
-        <URL>http://caa.estec.esa.int/caa/home.xml/</URL>
-        <Description>Access to repository of Cluster 4 WHISPER data in Cluster Exchange Format (CEF) and CDF at the Cluster Active Archive</Description>
+        <URL>https://www.cosmos.esa.int/web/csa</URL>
+        <Description>Access to repository of Cluster 4 WHISPER data in Cluster Exchange Format (CEF) and CDF at the Cluster Science Archive</Description>
         <Language>en</Language>
       </AccessURL>
       <Format>Text.ASCII</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>Users of the Cluster WHISPER data are encouraged to 
-acknowledge the instrument team and ESA Cluster Active Archive when using this data</Acknowledgement>
+acknowledge the instrument team and ESA Cluster Science Archive when using this data</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <ProviderResourceName>C1_CP_WHI_NATURAL</ProviderResourceName>
+    <ProviderResourceName>C4_CP_WHI_ACTIVE</ProviderResourceName>
     <InstrumentID>spase://SMWG/Instrument/Cluster-Tango/WHISPER</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <MeasurementType>Waves.Active</MeasurementType>

@@ -55,7 +55,7 @@ acknowledge the instrument team and ESA Cluster Active Archive when using this d
 acknowledge the instrument team and ESA Cluster Active Archive when using this data</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <ProviderResourceName>C1_CP_WHI_NATURAL</ProviderResourceName>
+    <ProviderResourceName>C2_CP_WHI_ACTIVE</ProviderResourceName>
     <InstrumentID>spase://SMWG/Instrument/Cluster-Salsa/WHISPER</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <MeasurementType>Waves.Active</MeasurementType>

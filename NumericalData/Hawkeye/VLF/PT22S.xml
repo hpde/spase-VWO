@@ -16,13 +16,13 @@
             </Contact>
             <InformationURL>
                 <Name>Hawkeye Spacecraft</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/hawkeye/hawkeye.html</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/hawkeye/hawkeye.html</URL>
                 <Description>Hawkeye page maintained by NASA GSFC with science and instrument descriptions, data, software, and publication lists</Description>
                 <Language>en</Language>
             </InformationURL>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1974-040A-03</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1974-040A-03</URL>
                 <Description>Information about the ELF/VLF Receivers experiment on the Hawkeye 1 mission.</Description>
             </InformationURL>
             <PriorID>spase://VWO/NumericalData/Hawkeye/VLF/CDF_PT22S</PriorID>
@@ -39,12 +39,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/hawkeye/h0/vlf/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/hawkeye/h0/vlf/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/pre_istp/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/pre_istp/</URL>
                 <ProductKey>HK_H0_VLF</ProductKey>
                 <Description>Repository of Hawkeye data in CDF format at NASA CDAWeb, accessible via web interface. Name of the data resource: HK_H0_VLF.</Description>
                 <Language>en</Language>

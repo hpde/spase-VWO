@@ -51,7 +51,7 @@ Fce = 0.028 kHz*B, where B is the magnitude of the ambient magnetic field measur
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h0/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h0/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -63,7 +63,7 @@ Fce = 0.028 kHz*B, where B is the magnitude of the ambient magnetic field measur
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
                 <ProductKey>PO_H0_PWI</ProductKey>
                 <Description>Repository of Polar PWI data with subset, plot and list functionalities from NASA CDAWeb, accessible via web interface. 
             Name of the data resource: PO_H0_PWI.</Description>

@@ -227,7 +227,7 @@ email:   robert.macdowall@gsfc.nasa.gov.
 
 The URL for the URAP Home Page at Goddard Space Flight
 Center is
-                 http://urap.gsfc.nasa.gov/
+                 https://urap.gsfc.nasa.gov/
 </Description>
             <Acknowledgement/>
             <Contact>
@@ -246,7 +246,7 @@ Center is
             </InformationURL>
             <InformationURL>
                 <Name>Ulysses URAP Instrument Page at NASA/GSFC</Name>
-                <URL>http://urap.gsfc.nasa.gov</URL>
+                <URL>https://urap.gsfc.nasa.gov</URL>
                 <Description>Ulysses URAP Instrument page maintained by NASA GSFC with URAP data plotting tools, Data Access, Publication lists, Team member lists, documents, and related links sections</Description>
                 <Language>en</Language>
             </InformationURL>
@@ -265,12 +265,12 @@ Center is
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/ulysses/radio/urap/</URL>
                 <Description>Repository of Ulysses URAP display and numeric data at NASA GSFC, containing GIF and PS plots of dynamic spectrograms as well as ASCII data sets.</Description>
             </AccessURL>
             <AccessURL>
                 <Name>URAP Data Access Viewer</Name>
-                <URL>http://urap.gsfc.nasa.gov/cgi-bin/giffer.py?plot_type=dynspec</URL>
+                <URL>https://urap.gsfc.nasa.gov/cgi-bin/giffer.py?plot_type=dynspec</URL>
                 <Description>A display tool to browse URAP Dynamic Spectrograms at 1, 10 and 26 day intervals.</Description>
             </AccessURL>
             <Format>GIF</Format>
@@ -298,7 +298,7 @@ Center is
         <Caveats>Ulyssses URAP Interference and other issues affecting data interpretation - 
 see Description section 6. above also see
 Ulysses URAP - Interference and other issues affecting data interpretation
-http://vwo.nasa.gov/urap/URAP_InterpretationIssues/urap_interpretation.html
+https://vwo.nasa.gov/urap/URAP_InterpretationIssues/urap_interpretation.html
 and
 URAP - User Notes
 http://ulysses-ops.esa.int/ulysses/archive/urap_un.html

@@ -34,13 +34,13 @@ These data consist of output from the SWAVES HFR and LFR receivers.
             </Contact>
             <InformationURL>
                 <Name>STEREO/WAVES Instrument Page</Name>
-                <URL>http://swaves.gsfc.nasa.gov/index.html</URL>
+                <URL>https://swaves.gsfc.nasa.gov/index.html</URL>
                 <Description>STEREO/WAVES instrument page maintained by NASA GSFC with science and instrument descriptions, data, personnel, publications, and related links sections</Description>
                 <Language>en</Language>
             </InformationURL>
             <InformationURL>
                 <Name>STEREO Mission Page at NASA/GSFC</Name>
-                <URL>http://stereo.gsfc.nasa.gov/</URL>
+                <URL>https://stereo.gsfc.nasa.gov/</URL>
                 <Description>STEREO mission page with spacecraft and instrument descriptions, news, links to data (STEREO Science Center), and image gallerys</Description>
                 <Language>en</Language>
             </InformationURL>
@@ -58,7 +58,7 @@ These data consist of output from the SWAVES HFR and LFR receivers.
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/stereo/combined/swaves/level2_cdf/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/stereo/combined/swaves/level2_cdf/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -70,7 +70,7 @@ These data consist of output from the SWAVES HFR and LFR receivers.
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
                 <ProductKey>STEREO_LEVEL2_SWAVES</ProductKey>
                 <Description>Repository of SWAVES data in CDF format at NASA CDAWeb, accessible via web interface. Name of the data resource: STEREO_LEVEL2_SWAVES.</Description>
                 <Language>en</Language>

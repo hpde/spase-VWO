@@ -49,7 +49,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>ISEE1/PWI Browse Spectrogram Plots</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/pre_generated_plots/isee/isee1/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/pre_generated_plots/isee/isee1/</URL>
         <Description>Access to a directory tree (ordered by year) of PNG format plots for ISEE-1 SFR (daily) and SA (12 hour) dynamic spectrograms.  </Description>
         <Language>en</Language>
       </AccessURL>

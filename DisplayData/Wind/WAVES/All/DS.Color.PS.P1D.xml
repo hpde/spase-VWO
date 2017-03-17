@@ -40,7 +40,7 @@ The thermal noise receiver (TNR) is designed to actively track the solar wind pl
       </Contact>
       <InformationURL>
         <Name>WIND-WAVES: The Radio and Plasma Wave Investigation on the WIND Spacecraft</Name>
-        <URL>http://www-lep.gsfc.nasa.gov/waves/index.html</URL>
+        <URL>https://www-lep.gsfc.nasa.gov/waves/index.html</URL>
         <Description>Wind/WAVES page maintained at NASA/GSFC with descriptions of the instrument, publications, examples of data, a form for requesting summary plots, Type II/IV event lists and access to numerical data in IDL save file format and ASCII format and IDL code.</Description>
         <Language>en</Language>
       </InformationURL>

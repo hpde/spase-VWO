@@ -25,13 +25,13 @@
             </Contact>
             <InformationURL>
                 <Name>WAVES Experiment on the Wind Spacecraft</Name>
-                <URL>http://lep694.gsfc.nasa.gov/waves/index.html</URL>
+                <URL>https://lep694.gsfc.nasa.gov/waves/index.html</URL>
                 <Description>Wind/WAVES page maintained at NASA/GSFC with descriptions of the instrument, publications, examples of data, a form for requesting summary plots, Type II/IV event lists and access to numerical data in IDL save file format and ASCII format and IDL code.</Description>
                 <Language>en</Language>
             </InformationURL>
             <InformationURL>
                 <Name>Wind Spacecraft Home Page</Name>
-                <URL>http://wind.nasa.gov/</URL>
+                <URL>https://wind.nasa.gov/</URL>
                 <Description>Wind home page with description of instruments and access to data files.</Description>
             </InformationURL>
             <PriorID>spase://VWO/NumericalData/Wind/WAVES/CDF_DS_PT1M</PriorID>
@@ -48,12 +48,12 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_h1/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/wind/waves/wav_h1/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
                 <ProductKey>WI_H1_WAV</ProductKey>
                 <Description>Repository of Wind Waves CDF format at NASA CDAWeb, accessible via web interface. Name of the data resource: WI_H1_WAV.</Description>
                 <Language>en</Language>

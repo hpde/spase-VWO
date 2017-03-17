@@ -38,7 +38,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/efw/esvy_despun/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l2/efw/esvy_despun/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -50,7 +50,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>RBSPA_EFW-L2_ESVY_DESPUN</ProductKey>
             </AccessURL>
             <Format>Text</Format>

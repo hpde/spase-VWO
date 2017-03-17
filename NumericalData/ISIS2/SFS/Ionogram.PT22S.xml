@@ -23,13 +23,13 @@
       </Contact>
       <InformationURL>
         <Name>ISIS/Alouette Topside Sounder Data Restoration Project</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</URL>
         <Description>ISIS/Alouette page maintained by NASA GSFC with science and instrument descriptions, data access, software, and publication lists</Description>
         <Language>en</Language>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1971-024A-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1971-024A-01</URL>
         <Description>Information about the Sweep Frequency Sounder experiment on ISIS-2.
         </Description>
       </InformationURL>
@@ -43,13 +43,13 @@
         <Name>CDAWeb FTP access to ISIS-2 Ionogram CDFs</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/isis/topside_sounder/ionogram_cdaweb/isis2</URL>
         <Description>FTP access to repository of ISIS-2 Ionograms in CDF format at NASA CDAWeb. The CDF files are organized by ground station, where each ground station is represented by a three letter ID and a two-digit code. The full names for each station are provided at 
-            http://nssdc.gsfc.nasa.gov/space/isis/isis-table1-new.html
+            https://nssdc.gsfc.nasa.gov/space/isis/isis-table1-new.html
             A merged data set, independent of the ground stations, is planned.</Description>
         <Language>en</Language>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb web access portal to ISIS-2 Ionogram data</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/pre_istp/</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/pre_istp/</URL>
         <Description>Repository of ISIS-2 data in CDF format at NASA CDAWeb, accessible via web interface.</Description>
         <Language>en</Language>
       </AccessURL>
@@ -77,7 +77,7 @@
     <ObservedRegion>Earth.NearSurface.Ionosphere</ObservedRegion>
     <ObservedRegion>Earth.NearSurface.Ionosphere.Topside</ObservedRegion>
     <Caveats>See discussion on "How To Detect Erroneous ISIS-2 Digital Ionogram Files" at
-      http://nssdc.gsfc.nasa.gov/space/isis/isis_read_error.html</Caveats>
+      https://nssdc.gsfc.nasa.gov/space/isis/isis_read_error.html</Caveats>
     <!-- Keywords pertaining to the data presentation or instrument-->
     <Keyword>Ionogram</Keyword>
     <Keyword>topside sounder</Keyword>

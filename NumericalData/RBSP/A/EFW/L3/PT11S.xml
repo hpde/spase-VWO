@@ -42,7 +42,7 @@ The electric field is presented in a MGSE (modified GSE) coordinate system. We p
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/efw/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/rbsp/rbspa/l3/efw/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -54,7 +54,7 @@ The electric field is presented in a MGSE (modified GSE) coordinate system. We p
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/</URL>
                 <ProductKey>RBSPA_EFW-L3</ProductKey>
             </AccessURL>
             <Format>Text</Format>

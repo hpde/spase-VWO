@@ -62,13 +62,13 @@
       </Contact>
       <InformationURL>
         <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
-        <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
+        <URL>https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
         <Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
          	</Description>
       </InformationURL>
       <InformationURL>
         <Name>Planetary Radio Astronomy (PRA)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-084A-10</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-084A-10</URL>
         <Description>NSSDC Master Catalog description of the Voyager 1 PRA Instrument
          	</Description>
       </InformationURL>
@@ -80,7 +80,7 @@
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Access to color and grayscale spectrogram plots of Voyager 1 PRA Highband 48 second resolution data</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/planet_radio_ast_pra/GIFs/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/voyager/voyager1/planet_radio_ast_pra/GIFs/</URL>
         <Description>
             </Description>
         <Language>en</Language>

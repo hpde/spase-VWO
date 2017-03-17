@@ -19,7 +19,7 @@
             </Contact>
             <InformationURL>
                 <Name>IMAGE RPI Instrument Page</Name>
-                <URL>http://image.gsfc.nasa.gov/rpi/</URL>
+                <URL>https://image.gsfc.nasa.gov/rpi/</URL>
                 <Description>IMAGE RPI Instrument page maintained by NASA GSFC with RPI facts, description, team, data, documents, discoveries, and related links sections</Description>
                 <Language>en</Language>
             </InformationURL>
@@ -44,7 +44,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>RPI Daily Dynamic Spectrograms</Name>
-                <URL>http://image.gsfc.nasa.gov/rpi/spectrogram/</URL>
+                <URL>https://image.gsfc.nasa.gov/rpi/spectrogram/</URL>
                 <Description>Repository of RPI dynamic spectrogram images at NASA GSFC, containing web interface to individual images. </Description>
                 <Language>en</Language>
             </AccessURL>

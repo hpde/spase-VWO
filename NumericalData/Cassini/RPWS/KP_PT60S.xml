@@ -44,12 +44,12 @@
             </Contact>
             <InformationURL>
                 <Name>PDS/PPI</Name>
-                <URL>http://ppi.pds.nasa.gov/</URL>
+                <URL>https://ppi.pds.nasa.gov/</URL>
                 <Description>NASA's Planetary Plasma Interactions (PPI) Node of the Planetary Data System (PDS)</Description>
             </InformationURL>
             <InformationURL>
                 <Name>Cassini RPWS Volume CORPWS_0172</Name>
-                <URL>http://ppi.pds.nasa.gov/archive1/CORPWS_0172/AAREADME.HTM</URL>
+                <URL>https://ppi.pds.nasa.gov/archive1/CORPWS_0172/AAREADME.HTM</URL>
                 <Description>The Cassini RPWS Volume 172 (typical) readme file with descriptions of the data, the organization of the data within the volume and associated software</Description>
             </InformationURL>
         </ResourceHeader>
@@ -59,7 +59,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CO RPWS</Name>
-                <URL>http://ppi.pds.nasa.gov/search/?k=CORPWS</URL>
+                <URL>https://ppi.pds.nasa.gov/search/?k=CORPWS</URL>
                 <Description>CASSINI ORBITER RADIO AND PLASMA WAVE SCIENCE</Description>
             </AccessURL>
             <Format>Text</Format>

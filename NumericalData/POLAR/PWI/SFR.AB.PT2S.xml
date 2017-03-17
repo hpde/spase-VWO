@@ -51,12 +51,12 @@ The Polar PWI Sweep Frequency Receiver-B (SFR-B) collected data from March 1996 
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h1/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h1/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
                 <ProductKey>PO_H1_PWI</ProductKey>
                 <Description>Repository of Polar PWI data in CDF format at NASA CDAWeb, accessible via web interface. Name of the data resource: PO_H1_PWI.</Description>
                 <Language>en</Language>

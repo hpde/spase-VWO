@@ -50,7 +50,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h2/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h2/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -62,7 +62,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
                 <ProductKey>PO_H2_PWI</ProductKey>
                 <Description>Repository of Polar PWI data with subset, plot, and list functionalities from NASA CDAWeb, accessible via web interface. 
             Name of the data resource: PO_H2_PWI.</Description>

@@ -141,7 +141,7 @@ CDAWeb.Name of the data resource: C1_WAVEFORM_WBD</Description>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb web access portal to Cluster WBD CDF data</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
         <Description>Repository of Cluster 1 WBD data in CDF format at NASA CDAWeb, 
 accessible via web interface. Name of the data resource: 
 C1_WAVEFORM_WBD.</Description>

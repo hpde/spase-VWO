@@ -41,7 +41,7 @@
             </Contact>
             <InformationURL>
                 <Name>PDS/PPI</Name>
-                <URL>http://ppi.pds.nasa.gov/</URL>
+                <URL>https://ppi.pds.nasa.gov/</URL>
                 <Description/>
             </InformationURL>
         </ResourceHeader>
@@ -51,7 +51,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>GO PWS</Name>
-                <URL>http://ppi.pds.nasa.gov/search/?k=GO-J-PWS-4-SUMM-SA60S-V1.0</URL>
+                <URL>https://ppi.pds.nasa.gov/search/?k=GO-J-PWS-4-SUMM-SA60S-V1.0</URL>
                 <Description>Galileo Orbiter Plasma Wave Receiver 60s Summary Dataset</Description>
             </AccessURL>
             <Format>Text</Format>

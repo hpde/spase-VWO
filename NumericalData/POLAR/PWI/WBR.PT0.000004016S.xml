@@ -105,7 +105,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h9/</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h9/</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -118,7 +118,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>PO_H9_PWI</ProductKey>
                 <Description>Plots, lists and files from CDAWeb of the data resource:PO_H9_PWI</Description>
             </AccessURL>

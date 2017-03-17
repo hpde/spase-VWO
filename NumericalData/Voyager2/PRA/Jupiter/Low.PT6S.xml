@@ -155,17 +155,17 @@ following files:
 +-----------------------------------------------------------------------------------------------------------------------------------+   
 |                                   file                                                         |    contents                      |
 |------------------------------------------------------------------------------------------------|----------------------------------|
-|http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG2_PRA_INST.CAT         | VG1 PRA instrument description   |
-|http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG2_PRA_JUP_HRES_DS.CAT  | data set description             |
-|http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/PERSON.CAT               |personnel information             | 
-|http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/REF.CAT                  |key reference description         | 
-|http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/DOCUMENT/INSTRUMENT              |ASCII and HTML versions of the PRA|   
+|https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG2_PRA_INST.CAT         | VG1 PRA instrument description   |
+|https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG2_PRA_JUP_HRES_DS.CAT  | data set description             |
+|https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/PERSON.CAT               |personnel information             | 
+|https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/REF.CAT                  |key reference description         | 
+|https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/DOCUMENT/INSTRUMENT              |ASCII and HTML versions of the PRA|   
 |                                                                                                |investigation description paper   |
 +-----------------------------------------------------------------------------------------------------------------------------------+   
          </Description>
       <Acknowledgement>When using delivered data please acknowledge the data provider and 
 PDS in accordance with the PDS citation policy. Full details can be found at:
-http://ppi.pds.nasa.gov/citations_policy.jsp
+https://ppi.pds.nasa.gov/citations_policy.jsp
          </Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
@@ -177,13 +177,13 @@ http://ppi.pds.nasa.gov/citations_policy.jsp
 	  </Contact>
       <InformationURL>
         <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
-        <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
+        <URL>https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
         <Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
          	</Description>
       </InformationURL>
       <InformationURL>
         <Name>VG2_PRA_JUP_HRES_DS.CAT</Name>
-        <URL>http://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG2_PRA_JUP_HRES_DS.CAT</URL>
+        <URL>https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG2_PRA_JUP_HRES_DS.CAT</URL>
         <Description>VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0 dataset description file 
          	</Description>
       </InformationURL>
@@ -195,7 +195,7 @@ http://ppi.pds.nasa.gov/citations_policy.jsp
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Access to dataset ID VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</Name>
-        <URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
+        <URL>https://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
         <Description>Below this directory level are the 4 ASCII files (TAB) and the accompanying PDS label (LBL) files.
             </Description>
         <Language>en</Language>
@@ -204,7 +204,7 @@ http://ppi.pds.nasa.gov/citations_policy.jsp
       <Encoding>None</Encoding>
       <Acknowledgement>When using delivered data please acknowledge the data provider and 
 PDS in accordance with the PDS citation policy. Full details can be found at:
-http://ppi.pds.nasa.gov/citations_policy.jsp</Acknowledgement>
+https://ppi.pds.nasa.gov/citations_policy.jsp</Acknowledgement>
     </AccessInformation>
 	<AccessInformation>
 		  <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
@@ -212,7 +212,7 @@ http://ppi.pds.nasa.gov/citations_policy.jsp</Acknowledgement>
 		  <AccessRights>Open</AccessRights>
 		  <AccessURL>
 				 <Name>PDS/PPI</Name>
-				 <URL>http://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
+				 <URL>https://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
 				 <ProductKey>VG2-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</ProductKey>
 				 <Description>This collection is archived with NASA&apos;s Planetary Data System.</Description>
 				 <Language>En</Language>

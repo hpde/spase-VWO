@@ -20,7 +20,7 @@
       </Contact>
       <InformationURL>
         <Name>IMAGE RPI Instrument Page</Name>
-        <URL>http://image.gsfc.nasa.gov/rpi/</URL>
+        <URL>https://image.gsfc.nasa.gov/rpi/</URL>
         <Description>IMAGE RPI Instrument page maintained by NASA GSFC with RPI facts, description, team, data, documents, discoveries, and related links sections</Description>
         <Language>en</Language>
       </InformationURL>
@@ -57,7 +57,7 @@
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb access portal to IMAGE RPI passive wave measurements (dynamic spectrograms)</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
         <Description>Repository of IMAGE RPI passive wave measurements (dynamic spectrograms) in CDF format at NASA CDAWeb, accessible via web interface. Name of the data resource: IM_K1_RPI.</Description>
         <Language>en</Language>
       </AccessURL>

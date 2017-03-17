@@ -50,7 +50,7 @@
             </AccessURL>
             <AccessURL>
                 <Name>HTTP access to files at SPDF</Name>
-                <URL>http://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h5</URL>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/pwi/pwi_h5</URL>
                 <Description>In CDF via HTTP from SPDF</Description>
             </AccessURL>
             <Format>CDF</Format>
@@ -63,7 +63,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>CDAWeb</Name>
-                <URL>http://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+                <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
                 <ProductKey>PO_H5_PWI</ProductKey>
                 <Description>Plots, lists and files from CDAWeb of the data resource:PO_H5_PWI</Description>
             </AccessURL>

@@ -21,13 +21,13 @@
       </Contact>
       <InformationURL>
         <Name>ISIS/Alouette Topside Sounder Data Restoration Project</Name>
-        <URL>http://spdf.gsfc.nasa.gov/isis/isis-status.html</URL>
+        <URL>https://spdf.gsfc.nasa.gov/isis/isis-status.html</URL>
         <Description>ISIS/Alouette page maintained by NASA GSFC with science and instrument descriptions, data access, software, and publication lists</Description>
         <Language>en</Language>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1965-098A-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1965-098A-01</URL>
         <Description>Information about the Sweep Frequency Sounder experiment on Alouette-2.
         </Description>
       </InformationURL>
@@ -40,13 +40,13 @@
         <Name>CDAWeb FTP access to Alouette-2 Ionogram CDFs</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/</URL>
         <Description>FTP access to repository of Alouette-2 Ionograms in CDF format at NASA CDAWeb. The CDF files are organized by ground station, where each ground station is represented by a three letter ID and a two-digit code. The full names for each station are provided at 
-            http://spdf.gsfc.nasa.gov/isis/isis-table1-new.html
+            https://spdf.gsfc.nasa.gov/isis/isis-table1-new.html
         </Description>
         <Language>en</Language>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb web access portal to Alouette-2 Ionogram data</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/pre_istp/</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/pre_istp/</URL>
         <Description>Repository of Alouette-2 data in CDF format at NASA CDAWeb, accessible via web interface.</Description>
         <Language>en</Language>
       </AccessURL>

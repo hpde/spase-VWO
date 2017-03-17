@@ -68,13 +68,13 @@ The spacecraft position in X-GSM in units of RE.
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1974-040A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1974-040A-03</URL>
         <Description>Information about the ELF/VLF Receivers experiment on the Hawkeye 1 mission.
         </Description>
       </InformationURL>
       <InformationURL>
         <Name>Hawkeye Spacecraft page at NSSDC</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/hawkeye/hawkeye.html</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/hawkeye/hawkeye.html</URL>
         <Description>Brief description of mission objectives, access to Summary (one per orbit) and Survey (4 hour) Plots, list of publications
         </Description>
       </InformationURL>
@@ -85,7 +85,7 @@ The spacecraft position in X-GSM in units of RE.
 		<AccessRights>Open</AccessRights>
 		<AccessURL>
 			<Name>Hawkeye Summary Plots</Name> 
-			<URL>http://nssdc.gsfc.nasa.gov/hawkeye/hawkeye_summary.html</URL>
+			<URL>https://nssdc.gsfc.nasa.gov/hawkeye/hawkeye_summary.html</URL>
 			<Description>Access via web form and directory lists to GIF format plots for Hawkeye multi-instrument Summary Plots </Description>
 			<Language>en</Language>
 		</AccessURL>

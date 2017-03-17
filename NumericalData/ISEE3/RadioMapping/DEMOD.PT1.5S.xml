@@ -100,7 +100,7 @@ Table 2-1.  ISEE-3 Radio Mapping Experiment Frequencies
       </Contact>
       <InformationURL>
         <Name>User Guide for ISEE-3 Radio Mapping Experiment CD-ROM Data</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/isee/isee3/radio_mapping/DOCUMENT/ISEE3_radio_data_guide_2009.pdf</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/radio_mapping/DOCUMENT/ISEE3_radio_data_guide_2009.pdf</URL>
         <Description>by Robert J. MacDowall, version 1.2 - revised July 1, 2009</Description>
         <Language>en</Language>
       </InformationURL>
@@ -111,7 +111,7 @@ Table 2-1.  ISEE-3 Radio Mapping Experiment Frequencies
       <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>ISEE-3 Radio Mapping Experiment Demodulated 1.5 sec data.</Name>
-        <URL>http://spdf.gsfc.nasa.gov/pub/data/isee/isee3/radio_mapping/DATA/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/isee/isee3/radio_mapping/DATA/</URL>
         <Description>Access to gzipped IEEE binary data files of 1.5 second demodulated data. Beneath this directory are also 1.5 second modulated data and 108 second averaged data.</Description>
         <Language>en</Language>
       </AccessURL>

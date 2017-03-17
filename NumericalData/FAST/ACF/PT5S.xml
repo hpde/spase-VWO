@@ -48,7 +48,7 @@ The time range of each file is roughly 24 hours and consists of several passes o
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb web access portal to FAST AC Fields CDF data</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
         <Description>Repository of FAST AC Fields data in CDF format at NASA CDAWeb, accessible via web interface. 
             Name of the data resource: FA_K0_ACF.</Description>
         <Language>en</Language>

@@ -62,7 +62,7 @@
       </Contact>
       <InformationURL>
         <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
-        <URL>https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
+        <URL>https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
         <Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
          	</Description>
       </InformationURL>

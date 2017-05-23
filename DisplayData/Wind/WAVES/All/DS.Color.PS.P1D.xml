@@ -5,7 +5,7 @@
     <ResourceHeader>
       <ResourceName>Wind WAVES All Instruments Daily Summary Color Dynamic Spectrograms</ResourceName>
       <AlternateName/>
-      <ReleaseDate>2015-10-08T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2017-05-05T20:20:00Z</ReleaseDate>
       <Description>Wind Waves RAD2, RAD1, and TNR dynamic spectrogram plots with frequency in kHz on the vertical axis and time in UT on the horizontal axis. Each file contains one electric field spectrogram from each of three instruments: RAD1 (radio receiver band 1), RAD2 (radio receiver band 2) and TNR (thermal noise receiver). 
 		The intensity values are color coded and are expressed as tlm counts above galactic background for the RAD1 and RAD2 receivers and as dB below a volt per root Hz for the TNR. 
 		Each plot spans 24 hours. Above the RAD2 spectrogram are spacecraft GSE coordinates at the beginning and ending of the time period of the plot. 
@@ -40,7 +40,7 @@ The thermal noise receiver (TNR) is designed to actively track the solar wind pl
       </Contact>
       <InformationURL>
         <Name>WIND-WAVES: The Radio and Plasma Wave Investigation on the WIND Spacecraft</Name>
-        <URL>https://www-lep.gsfc.nasa.gov/waves/index.html</URL>
+        <URL>https://solar-radio.gsfc.nasa.gov/wind/index.html</URL>
         <Description>Wind/WAVES page maintained at NASA/GSFC with descriptions of the instrument, publications, examples of data, a form for requesting summary plots, Type II/IV event lists and access to numerical data in IDL save file format and ASCII format and IDL code.</Description>
         <Language>en</Language>
       </InformationURL>

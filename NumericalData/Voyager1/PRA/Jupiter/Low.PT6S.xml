@@ -124,14 +124,14 @@
 
       Volume ID: VGPR_1201                                                    
                                                      
-     +------------------------------------------------------------------------+
-     | Filename  |Records|              Start       |            Stop         |
-     |------------------------------------------------------------------------|
-     | PRA_I.TAB |  35569| 1979-01-06T00:00:34.000Z | 1979-01-30T23:59:47.000Z|  
-     | PRA_II.TAB|  39493| 1979-01-31T00:00:35.000Z | 1979-02-25T23:59:47.000Z|  
-     |PRA_III.TAB|  41371| 1979-02-26T00:00:35.000Z | 1979-03-22T23:59:56.000Z|  
-     | PRA_IV.TAB|  24587| 1979-03-23T00:00:44.000Z | 1979-04-13T23:59:08.000Z|
-     +------------------------------------------------------------------------+                                                                              
+     +-------------------------------------------------------------------------+
+     | Filename   |Records|              Start       |            Stop         |
+     |-------------------------------------------------------------------------|
+     | PRA_I.TAB  |  35569| 1979-01-06T00:00:34.000Z | 1979-01-30T23:59:47.000Z|  
+     | PRA_II.TAB |  39493| 1979-01-31T00:00:35.000Z | 1979-02-25T23:59:47.000Z|  
+     | PRA_III.TAB|  41371| 1979-02-26T00:00:35.000Z | 1979-03-22T23:59:56.000Z|  
+     | PRA_IV.TAB |  24587| 1979-03-23T00:00:44.000Z | 1979-04-13T23:59:08.000Z|
+     +-------------------------------------------------------------------------+                                                                              
                                                                               
       Confidence Level Overview                                               
       
@@ -151,19 +151,19 @@
 Additional information associated with this data set is available in the      
 following files:                                                              
 
-+-----------------------------------------------------------------------------------------------------------------------------------+   
-|                                   file                                                         |    contents                      |
-| https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA1_INST.CAT       |VG1 PRA instrument description    |
-| https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA_JUP_HRES_DS.CAT |  data set description            |
-| https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/PERSON.CAT              | personnel information            |
-| https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/REF.CAT                 |key reference description         |
-| https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/DOCUMENT/INSTRUMENT             |ASCII and HTML versions of the PRA|   
-|                                                                                                |investigation description paper   |
-+-----------------------------------------------------------------------------------------------------------------------------------+                                                                                                                                                            
++------------------------------------------------------------------------------------------------------------------------------------------+   
+|                                   file                                                               | contents                          |
+| https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA1_INST.CAT       | VG1 PRA instrument description    |
+| https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA_JUP_HRES_DS.CAT | data set description              |
+| https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/PERSON.CAT              | personnel information             |
+| https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/REF.CAT                 | key reference description         |
+| https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VGPR_1201/DOCUMENT/INSTRUMENT             | ASCII and HTML versions of the PRA|   
+|                                                                                                      | investigation description paper   |
++------------------------------------------------------------------------------------------------------------------------------------------+                                                                                                                                                            
          </Description>
              <Acknowledgement>When using delivered data please acknowledge the data provider and 
 PDS in accordance with the PDS citation policy. Full details can be found at:
-https://ppi.pds.nasa.gov/citations_policy.jsp
+https://pds-ppi.igpp.ucla.edu/citations_policy.jsp
          </Acknowledgement>
          <Contact>
         	<PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
@@ -175,13 +175,13 @@ https://ppi.pds.nasa.gov/citations_policy.jsp
 		</Contact>
       	<InformationURL>
         	<Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
-        	<URL>https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
+        	<URL>https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
         	<Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
          	</Description>
       	</InformationURL>
       	<InformationURL>
 	        <Name>VG1_PRA_JUP_HRES_DS.CAT</Name>
-    	    <URL>https://ppi.pds.nasa.gov/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA_JUP_HRES_DS.CAT</URL>
+    	    <URL>https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VGPR_1201/CATALOG/VG1_PRA_JUP_HRES_DS.CAT</URL>
         	<Description>VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0 dataset description file 
 	       	</Description>
     	  </InformationURL>
@@ -193,7 +193,7 @@ https://ppi.pds.nasa.gov/citations_policy.jsp
       <AccessRights>Open</AccessRights>
       <AccessURL>
         	<Name>Access to dataset ID VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</Name>
-        	<URL>https://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
+        	<URL>https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
        		 <Description>Below this directory level are the 4 ASCII files (TAB) and the accompanying PDS label (LBL) files.
             </Description>
         <Language>en</Language>
@@ -202,7 +202,7 @@ https://ppi.pds.nasa.gov/citations_policy.jsp
       <Encoding>None</Encoding>
       <Acknowledgement>When using delivered data please acknowledge the data provider and 
 PDS in accordance with the PDS citation policy. Full details can be found at:
-https://ppi.pds.nasa.gov/citations_policy.jsp</Acknowledgement>
+https://pds-ppi.igpp.ucla.edu/citations_policy.jsp</Acknowledgement>
     </AccessInformation>
     <AccessInformation>
 		  <RepositoryID>spase://SMWG/Repository/PDS/PPI</RepositoryID>
@@ -210,7 +210,7 @@ https://ppi.pds.nasa.gov/citations_policy.jsp</Acknowledgement>
 		  <AccessRights>Open</AccessRights>
 		  <AccessURL>
 				 <Name>PDS/PPI</Name>
-				 <URL>https://ppi.pds.nasa.gov/search/view/?f=yes&amp;id=pds://PPI/VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
+				 <URL>https://pds-ppi.igpp.ucla.edu/search/view/?f=yes&amp;id=pds://PPI/VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</URL>
 				 <ProductKey>VG1-J-PRA-3-RDR-LOWBAND-6SEC-V1.0</ProductKey>
 				 <Description>This collection is archived with NASA&apos;s Planetary Data System.</Description>
 				 <Language>En</Language>

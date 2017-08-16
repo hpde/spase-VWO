@@ -1,14 +1,14 @@
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/Alouette2/SFS/PT31S</ResourceID>
     <ResourceHeader>
       <ResourceName>Alouette-2 Topside Sounder Ionogram Data</ResourceName>
-      <ReleaseDate>2013-12-02T19:00:00Z</ReleaseDate>
+      <ReleaseDate>2017-08-04T00:00:00Z</ReleaseDate>
       <Description>These ionograms were digitized from the original Alouette 2 7-track analog telemetry tapes using the facilities of the former Data Evaluation Laboratory at the NASA/GSFC. This data restoration project is headed by Dr. R.F. Benson (NASA/GSFC). Ionograms were digitized at the rate of 40,000 16-bit samples/sec. This sample rate is higher than the Nyquist frequency of 30 kHz. The sample frequency of 40 kHz provides a measurement every 25 microseconds corresponding to an apparent range (c*t/2) interval of 3.75 km. The ionograms consist of swept-frequency operation (there is no fixed-frequency operation as in ISIS-1 and ISIS-2). The time resolution between ionograms is typically 31 seconds. </Description>
       <Acknowledgement>Users please acknowledge the Coordinated Data Analysis Web (CDAWeb) at the NASA Goddard Space Flight Center, Alouette-2 SFS instrument Principal Investigator J. H. Whitteker and Alouette/ISIS Data-Restoration project lead Robert F. Benson.</Acknowledgement>
       <Contact>
-        <PersonID>spase://SMWG/Person/J.H.Whitteker</PersonID>
+        <PersonID>spase://SMWG/Person/James.H.Whitteker</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
@@ -33,22 +33,59 @@
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>CDAWeb FTP access to Alouette-2 Ionogram CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/</URL>
+        <Name>FTP access to files at SPDF</Name>
+        <URL>ftp://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/</URL>
         <Description>FTP access to repository of Alouette-2 Ionograms in CDF format at NASA CDAWeb. The CDF files are organized by ground station, where each ground station is represented by a three letter ID and a two-digit code. The full names for each station are provided at 
             https://spdf.gsfc.nasa.gov/isis/isis-table1-new.html
         </Description>
         <Language>en</Language>
       </AccessURL>
       <AccessURL>
-        <Name>CDAWeb web access portal to Alouette-2 Ionogram data</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/pre_istp/</URL>
-        <Description>Repository of Alouette-2 data in CDF format at NASA CDAWeb, accessible via web interface.</Description>
+        <Name>HTTP access to files at SPDF</Name>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/alouette/topside_sounder/ionogram_cdaweb/alouette2/</URL>
+        <Description>FTP access to repository of Alouette-2 Ionograms in CDF format at NASA CDAWeb. The CDF files are organized by ground station, where each ground station is represented by a three letter ID and a two-digit code. The full names for each station are provided at 
+            https://spdf.gsfc.nasa.gov/isis/isis-table1-new.html
+        </Description>
         <Language>en</Language>
+      </AccessURL>
+      <AccessURL>
+          <Name>Subset, plot, list from CDAWeb</Name>
+          <URL>https://cdaweb.gsfc.nasa.gov/sp_phys/</URL>
+          <Description>CDAWeb interactive interface for subsets, plots and lists of data</Description>
+      </AccessURL>
+      <AccessURL>
+          <Name>Fairbanks, Alaska</Name>
+          <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/Alouette2/SFS/AverageIonogram/Fairbanks/PT31S</URL>
+          <Description>Alouette-2 Topside Sounder Ionogram over Fairbanks, AK (SFS) (Latitude 65, Longitude 212)</Description>
+      </AccessURL>
+      <AccessURL>
+          <Name>Falkland Is., United Kingdom</Name>
+          <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/Alouette2/SFS/AverageIonogram/FalklandIslands/PT31S</URL>
+          <Description>Alouette-2 Topside Sounder Ionogram over Falkland Island, United Kingdom (SFS) (Latitude -52, Longitude 302)</Description>
+      </AccessURL>
+      <AccessURL>
+          <Name>Lima, Peru</Name>
+          <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/Alouette2/SFS/AverageIonogram/Lima/PT31S</URL>
+          <Description>Alouette-2 Topside Sounder Ionogram over Lima, Peru (SFS) (Latitude -12, Longitude 283)</Description>
+      </AccessURL>
+      <AccessURL>
+          <Name>Quito, Equador</Name>
+          <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/Alouette2/SFS/AverageIonogram/Quito/PT31S</URL>
+          <Description>Alouette-2 Topside Sounder Ionogram over Quito, Equador (SFS) (Latitude -1, Longitude 281)</Description>
+      </AccessURL>
+      <AccessURL>
+          <Name>Santiago, Chile</Name>
+          <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/Alouette2/SFS/AverageIonogram/Santiago/PT31S</URL>
+          <Description>Alouette-2 Topside Sounder Ionogram over Santiago, Chile (SFS) (Latitude -33, Longitude 298)</Description>
+      </AccessURL>
+      <AccessURL>
+          <Name>Winkfield, United Kingdom</Name>
+          <URL>http://www.spase-group.org/registry/render?f=yes&amp;id=spase://VSPO/NumericalData/Alouette2/SFS/AverageIonogram/Winkfield/PT31S</URL>
+          <Description>Alouette-2 Topside Sounder Ionogram over Winkfield, United Kingdom (SFS) (Latitude 51, Longitude 359)</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>

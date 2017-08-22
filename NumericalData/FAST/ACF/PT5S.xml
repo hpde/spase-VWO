@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/FAST/ACF/PT5S</ResourceID>
     <ResourceHeader>
       <ResourceName>FAST AC Fields, ~5 sec resolution</ResourceName>
       <AlternateName>FA_K0_ACF</AlternateName>
-      <ReleaseDate>2012-02-24T17:38:01Z</ReleaseDate>
+      <ReleaseDate>2017-08-22T17:38:01Z</ReleaseDate>
       <Description>
          	         FAST AC Fields Key Parameter CDF files consists of AC Electric and Magnetic fields measurements spanning a range from approximately 32 Hz to 2 MHz.
          	         
@@ -29,7 +28,7 @@ The time range of each file is roughly 24 hours and consists of several passes o
       </Contact>
       <InformationURL>
         <Name>FAST home page at UC Berkeley</Name>
-        <URL>http://plasma2.ssl.berkeley.edu/fast/</URL>
+        <URL>http://sprg.ssl.berkeley.edu/fast/intro.html</URL>
         <Description>The FAST home page maintained at the University of California Berkeley with links to publications, documentation, access to data and software. </Description>
         <Language>en</Language>
       </InformationURL>
@@ -40,18 +39,20 @@ The time range of each file is roughly 24 hours and consists of several passes o
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>CDAWeb FTP access to FAST AC Fields CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/fast/acf/</URL>
-        <Description>FTP access to repository of FAST AC Fields CDFs at NASA CDAWeb.
-            Name of the data resource: FA_K0_ACF</Description>
-        <Language>en</Language>
+          <Name>FTP access to files at SPDF</Name>
+          <URL>ftp://spdf.sci.gsfc.nasa.gov/pub/data/fast/acf/k0/</URL>
+          <Description>In CDF via FTP from CDAWeb</Description>
       </AccessURL>
       <AccessURL>
-        <Name>CDAWeb web access portal to FAST AC Fields CDF data</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
-        <Description>Repository of FAST AC Fields data in CDF format at NASA CDAWeb, accessible via web interface. 
-            Name of the data resource: FA_K0_ACF.</Description>
-        <Language>en</Language>
+          <Name>HTTP access to files at SPDF</Name>
+          <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/fast/acf/k0/</URL>
+          <Description>In CDF via HTTP from CDAWeb</Description>
+      </AccessURL>
+      <AccessURL>
+          <Name>CDAWeb</Name>
+          <URL>https://cdaweb.gsfc.nasa.gov/sp_phys</URL>
+          <ProductKey>FA_K0_ACF</ProductKey>
+          <Description>Plots, lists, and data from CDAWeb.  The resource name is: FA_K0_ACF</Description>
       </AccessURL>
       <Format>CDF</Format>
       <Encoding>None</Encoding>

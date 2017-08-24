@@ -6,7 +6,7 @@
       <ResourceName>Cluster 1 WHISPER Active Electric Power Spectral Density</ResourceName>
       <AlternateName>Cluster Rumba WHISPER Electric Power Spectral Density under Sounding Mode</AlternateName>
       <AlternateName>C1_CP_WHI_ACTIVE</AlternateName>
-      <ReleaseDate>2017-03-08T17:36:48Z</ReleaseDate>
+      <ReleaseDate>2017-08-24T15:40:30Z</ReleaseDate>
       <Description>The Waves of HIgh frequency and Sounder for Probing of Electron density
 	 by Relaxation (WHISPER) performs the measurement of the electron density
 	 on the four satellites of the Cluster project. The two main purposes of
@@ -16,6 +16,10 @@
 	 provide a good frequency resolution obtained in the bandwidth 2-83 kHz.
 	 Onboard data compression by the Digital Wave Processing (DWP) intrument
 	 allows a good dynamic and level resolution of the electric signal amplitude.
+
+	 Data products available from the Cluster Science Archive include: electric spectral power density (natural spectra and active spectra), electric spectral power density from passive emission during sounding, and electric waveform power density in 0.2 second resolution. Ancillary data include Quicklook plots (JPEG) in both active and natural mode, sounding times, housekeeping data, instrument parameters during natural and active mode,  and active to passive spectral power density coded ratio.
+
+	 Access to data through the Cluster Science Archive is available via a java GUI interface and a command-line interface. Registration is required.
 </Description>
       <Acknowledgement>Users of the Cluster WHISPER data are encouraged to 
 acknowledge the instrument team and ESA Cluster Science Archive when using this data</Acknowledgement>
@@ -41,11 +45,12 @@ acknowledge the instrument team and ESA Cluster Science Archive when using this 
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/CSA</RepositoryID>
       <Availability>Online</Availability>
-      <AccessRights>Restricted</AccessRights>
+      <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Access to Cluster WHISPER CEFs and CDFs</Name>
         <URL>https://www.cosmos.esa.int/web/csa</URL>
-        <Description>Access to repository of Cluster 1 WHISPER data in Cluster Exchange Format (CEF) and CDF at the Cluster Science Archive</Description>
+	<ProductKey>C1_CP_WHI_ACTIVE</ProductKey>
+        <Description>Access to repository of Cluster 1 WHISPER data in Cluster Exchange Format (CEF) and CDF at the Cluster Science Archive. Access is open but registration is required.</Description>
         <Language>en</Language>
       </AccessURL>
       <Format>Text.ASCII</Format>
@@ -54,7 +59,7 @@ acknowledge the instrument team and ESA Cluster Science Archive when using this 
 acknowledge the instrument team and ESA Cluster Science Archive when using this data</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
-    <ProviderResourceName>C1_CP_WHI_NATURAL</ProviderResourceName>
+    <ProviderResourceName>Electric Spectral Power Density (active spectra)</ProviderResourceName>
     <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/WHISPER</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <MeasurementType>Waves.Active</MeasurementType>

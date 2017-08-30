@@ -7,7 +7,8 @@
       <AlternateName>Cluster Rumba Wideband Data Plasma Wave Receiver/High Time Resolution Waveform Data</AlternateName>
       <AlternateName>C1_CE_Waveform_WBD_CDF</AlternateName>
       <AlternateName>C1_CP_Waveform_WBD</AlternateName>
-      <ReleaseDate>2017-03-08T17:03:48Z</ReleaseDate>
+      <AlternateName>C1_WAVEFORM_WBD</AlternateName>
+      <ReleaseDate>2017-08-30T17:00:00Z</ReleaseDate>
       <Description>The following description applies to the Wideband Data (WBD) Plasma 
 Wave Receivers on all four Cluster satellites, each satellite being uniquely identified 
 by its number (1 through 4) or its given name (Rumba, Salsa, Samba, Tango, 
@@ -142,6 +143,7 @@ CDAWeb.Name of the data resource: C1_WAVEFORM_WBD</Description>
       <AccessURL>
         <Name>CDAWeb web access portal to Cluster WBD CDF data</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+	<ProductKey>C1_WAVEFORM_WBD</ProductKey>
         <Description>Repository of Cluster 1 WBD data in CDF format at NASA CDAWeb, 
 accessible via web interface. Name of the data resource: 
 C1_WAVEFORM_WBD.</Description>
@@ -157,11 +159,13 @@ Goddard Space Flight Center, as the source of the data in any publication.</Ackn
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/CSA</RepositoryID>
       <Availability>Online</Availability>
-      <AccessRights>Restricted</AccessRights>
+      <AccessRights>Open</AccessRights>
       <AccessURL>
         <Name>Access to Cluster WBD CEFs</Name>
         <URL>https://www.cosmos.esa.int/web/csa/</URL>
-        <Description>Access to repository of Cluster 1 Wideband data in Cluster Exchange Format (CEF) and CDF format at the Cluster Science Archive. The CEF format files have the designation C[n]_CP_WBD_WAVEFORM, the CDF format has the designation C[n]_CE_WBD_WAVEFORM_CDF, where n=1,2,3,4.</Description>
+        <ProductKey>C1_CP_WBD_WAVEFORM</ProductKey>
+        <ProductKey>C1_CE_WBD_WAVEFORM_CDF</ProductKey>
+        <Description>Access to repository of Cluster 1 Wideband data in Cluster Exchange Format (CEF) and CDF format at the Cluster Science Archive. The CEF format files have the designation C[n]_CP_WBD_WAVEFORM, the CDF format has the designation C[n]_CE_WBD_WAVEFORM_CDF, where n=1,2,3,4. Access to data through the Cluster Science Archive is available via a java GUI interface and a command-line interface. Access is open but registration is required.</Description>
         <Language>en</Language>
       </AccessURL>
       <Format>Text.ASCII</Format>
@@ -171,6 +175,7 @@ acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I University of
 Iowa and the Cluster Science Archive, as appropriate, as the source of the data in any publication.</Acknowledgement>
     </AccessInformation>
     <ProcessingLevel>Calibrated</ProcessingLevel>
+    <ProviderResourceName>Electric and magnetic waveform data (full resolution)</ProviderResourceName>
     <InstrumentID>spase://SMWG/Instrument/Cluster-Rumba/WBD</InstrumentID>
     <MeasurementType>Waves.Passive</MeasurementType>
     <MeasurementType>ElectricField</MeasurementType>
@@ -387,6 +392,12 @@ transport packets.</Description>
       <Wave>
         <WaveType>PlasmaWaves</WaveType>
         <WaveQuantity>ACElectricField</WaveQuantity>
+  	    <FrequencyRange>
+               <SpectralRange>RadioFrequency</SpectralRange>
+               <Low>25</Low>
+               <High>577000</High>
+               <Units>Hz</Units>
+        </FrequencyRange>
       </Wave>
     </Parameter>
     <Parameter>
@@ -402,6 +413,12 @@ transport packets.</Description>
       <Wave>
         <WaveType>PlasmaWaves</WaveType>
         <WaveQuantity>ACMagneticField</WaveQuantity>
+  	    <FrequencyRange>
+               <SpectralRange>RadioFrequency</SpectralRange>
+               <Low>25</Low>
+               <High>577000</High>
+               <Units>Hz</Units>
+        </FrequencyRange>
       </Wave>
     </Parameter>
     <Parameter>

@@ -3,7 +3,7 @@
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/Cluster-Samba/WHISPER/PT2S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Cluster 3 WHISPER Natural Electric Power Spectral Density</ResourceName>
+      <ResourceName>Cluster Samba Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER) Natural Electric Power Spectral Density</ResourceName>
       <AlternateName>Cluster Samba WHISPER Electric Power Spectral Density under Natural Mode</AlternateName>
       <AlternateName>C3_CP_WHI_NATURAL</AlternateName>
       <ReleaseDate>2017-03-08T18:30:48Z</ReleaseDate>

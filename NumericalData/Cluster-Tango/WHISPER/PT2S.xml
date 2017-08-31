@@ -3,7 +3,7 @@
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/Cluster-Tango/WHISPER/PT2S</ResourceID>
     <ResourceHeader>
-      <ResourceName>Cluster 4 WHISPER Natural Electric Power Spectral Density</ResourceName>
+      <ResourceName>Cluster Tango Waves of HF and Sounder for Probing Electron Density by Relaxation (WHISPER) Natural Electric Power Spectral Density</ResourceName>
       <AlternateName>Cluster Tango WHISPER Electric Power Spectral Density under Natural Mode</AlternateName>
       <AlternateName>C4_CP_WHI_NATURAL</AlternateName>
       <ReleaseDate>2017-08-24T15:10:10Z</ReleaseDate>

@@ -1,11 +1,11 @@
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
     <!-- Version of the CCSDS_PGM_PT5M document: v0.5 July 24, 2009  -->
     <NumericalData>
         <ResourceID>spase://VWO/NumericalData/IMAGE/RPI/PGM.CCSDS.PT5M</ResourceID>
         <ResourceHeader>
             <ResourceName>RPI Plasmagram Full Resolution Binary Data</ResourceName>
-            <ReleaseDate>2012-04-11T13:21:43Z</ReleaseDate>
+            <ReleaseDate>2017-09-21T17:21:43Z</ReleaseDate>
             <Description>RPI plasmagram full resolution data (received signal strength in the frequency-range frame), uncalibrated. Presented as instrument packets wrapped in the standard CCSDS headers. Description of the RPI instrument-level data model can be found at http://ulcar.uml.edu/RPI/RPITelemetryDataFormat_V2.8.pdf. Data are viewed/calibrated/edited by BinBrowser software, see http://ulcar.uml.edu/rpi.html for download and users' guide. RPI plasmagrams are visualized by plotting images in which received signal strength (color scale) is a function of echo delay (range in vertical scale) and radio-sounder frequency (horizontal scale) of the radar pulses.  Echoes from important magnetospheric structures, such as the magnetopause and the plasmapause, appear as traces on plasmagrams. Plasmagram traces are intermixed with vertical signatures corresponding to the locally excited plasma resonances and various natural emissions propagating in space. </Description>
             <Acknowledgement/>
             <Contact>
@@ -14,7 +14,7 @@
             </Contact>
             <InformationURL>
                 <Name>IMAGE RPIAnywhere Download Page</Name>
-                <URL>http://car.uml.edu/Installation/install_all.htm</URL>
+                <URL>http://ulcar.uml.edu/Installation/install_all.htm</URL>
             </InformationURL>
             <InformationURL>
                 <Name>IMAGE RPI Instrument Page</Name>
@@ -31,7 +31,7 @@
             <AccessRights>Open</AccessRights>
             <AccessURL>
                 <Name>IMAGE RPI Software Download Page at UML</Name>
-                <URL>http://car.uml.edu/Installation/install_all.htm</URL>
+                <URL>http://ulcar.uml.edu/Installation/install_all.htm</URL>
                 <Description>Access to raw RPI telemetry data is arranged via the software tool BinBrowser that connects to the RPI Resident Archive at UMass Lowell for downloading of selected measurement records and subsequent export of selected subsets of measurement fields in plain text form.</Description>
             </AccessURL>
             <Format>Binary</Format>

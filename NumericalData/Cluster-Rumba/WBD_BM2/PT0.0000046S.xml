@@ -7,7 +7,7 @@
       <AlternateName>Cluster Rumba Wideband Data Plasma Wave Receiver/High Time Resolution Waveform Data Returned via BM2</AlternateName>
       <AlternateName>C1_CE_WBD_WAVEFORM_BM2_CDF</AlternateName>
       <AlternateName>C1_WAVEFORM_WBD_BM2</AlternateName>
-      <ReleaseDate>2017-09-28T17:00:00Z</ReleaseDate>
+      <ReleaseDate>2017-10-02T17:00:00Z</ReleaseDate>
       <Description>The following description applies to the Wideband Data (WBD) Plasma 
 Wave Receivers on all four Cluster satellites, each satellite being uniquely identified 
 by its number (1 through 4) or its given name (Rumba, Salsa, Samba, Tango, 
@@ -201,7 +201,7 @@ Goddard Space Flight Center, as the source of the data in any publication.</Ackn
         <Description>Access to repository of Cluster 1 Wideband data in CDF format at the Cluster Science Archive. The CDF format has the designation C[n]_CE_WBD_WAVEFORM_BM2_CDF, where n=1,2,3,4. Access to data through the Cluster Science Archive is available via a java GUI interface and a command-line interface. Access is open but registration is required.</Description>
         <Language>en</Language>
       </AccessURL>
-      <Format>Text.ASCII</Format>
+      <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>Users of the Cluster WBD data are encouraged to 
 acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I University of 

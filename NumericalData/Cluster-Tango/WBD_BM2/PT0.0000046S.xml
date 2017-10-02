@@ -3,11 +3,11 @@
   <NumericalData>
     <ResourceID>spase://VWO/NumericalData/Cluster-Tango/WBD_BM2/PT0.0000046S</ResourceID>
     <ResourceHeader>
-      <AlternateName>Cluster 4 Wideband Data Plasma Wave Receiver/High Time Resolution Electric and Magnetic Waveform Data Returned via BM2</AlternateName>
-      <ResourceName>Cluster Tango Wideband (WBD) Data Plasma Wave Receiver/High Time Resolution Waveform Data Retrurned via BM2</ResourceName>
+      <ResourceName>Cluster 4 Wideband Data Plasma Wave Receiver/High Time Resolution Electric and Magnetic Waveform Data Returned via BM2</ResourceName>
+      <AlternateName>Cluster Tango Wideband (WBD) Data Plasma Wave Receiver/High Time Resolution Waveform Data Retrurned via BM2</AlternateName>
       <AlternateName>C4_CE_WBD_WAVEFORM_BM2_CDF</AlternateName>
-      <AlternateName>C4_WAVEFORM_WBD</AlternateName>
-      <ReleaseDate>2017-09-28T17:00:00Z</ReleaseDate>
+      <AlternateName>C4_WAVEFORM_WBD_BM2</AlternateName>
+      <ReleaseDate>2017-10-02T17:00:00Z</ReleaseDate>
       <Description>The following description applies to the Wideband Data (WBD) Plasma 
 Wave Receivers on all four Cluster satellites, each satellite being uniquely identified 
 by its number (1 through 4) or its given name (Rumba, Salsa, Samba, Tango, 
@@ -171,16 +171,16 @@ interpretation and caveat descriptions.</Description>
         <Name>CDAWeb FTP access to Cluster WBD CDFs</Name>
         <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/cluster/c4/wbd/</URL>
         <Description>FTP access to repository of Cluster 4 WBD CDFs at NASA 
-CDAWeb.Name of the data resource: C4_WAVEFORM_WBD</Description>
+CDAWeb. Name of the data resource: C4_WAVEFORM_WBD_BM2</Description>
         <Language>en</Language>
       </AccessURL>
       <AccessURL>
         <Name>CDAWeb web access portal to Cluster WBD CDF data</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
-        <ProductKey>C4_WAVEFORM_WBD</ProductKey>
+        <ProductKey>C4_WAVEFORM_WBD_BM2</ProductKey>
         <Description>Repository of Cluster 4 WBD data in CDF format at NASA CDAWeb, 
 accessible via web interface. Name of the data resource: 
-C4_WAVEFORM_WBD.</Description>
+C4_WAVEFORM_WBD_BM2.</Description>
         <Language>en</Language>
       </AccessURL>
       <Format>CDF</Format>
@@ -197,12 +197,11 @@ Goddard Space Flight Center, as the source of the data in any publication.</Ackn
       <AccessURL>
         <Name>Access to Cluster WBD CEFs</Name>
         <URL>https://www.cosmos.esa.int/web/csa/</URL>
-	<ProductKey>C4_CP_WBD_WAVEFORM</ProductKey>
-	<ProductKey>C4_CE_WBD_WAVEFORM_CDF</ProductKey>
-        <Description>Access to repository of Cluster 4 Wideband data in Cluster Exchange Format (CEF) and CDF format at the Cluster Science Archive. The CEF format files have the designation C[n]_CP_WBD_WAVEFORM, the CDF format has the designation C[n]_CE_WBD_WAVEFORM_CDF, where n=1,2,3,4. Access to data through the Cluster Science Archive is available via a java GUI interface and a command-line interface. Access is open but registration is required.</Description>
+	<ProductKey>C4_CE_WBD_WAVEFORM_BM2_CDF</ProductKey>
+        <Description>Access to repository of Cluster Wideband BM2 data in CDF format at the Cluster Science Archive. The CDF format has the designation C[n]_CE_WBD_WAVEFORM_BM2_CDF, where n=1,2,3,4. Access to data through the Cluster Science Archive is available via a java GUI interface and a command-line interface. Access is open but registration is required.</Description>
         <Language>en</Language>
       </AccessURL>
-      <Format>Text.ASCII</Format>
+      <Format>CDF</Format>
       <Encoding>None</Encoding>
       <Acknowledgement>Users of the Cluster WBD data are encouraged to 
 acknowledge Jolene S. Pickett, PI and Donald A. Gurnett, Co-I University of 
@@ -216,8 +215,8 @@ Iowa and the Cluster Science Archive, as appropriate, as the source of the data 
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2001-02-03T05:26:00Z</StartDate>
-        <StopDate>2016-06-28T15:30:00Z</StopDate>
+        <StartDate>2010-07-28T14:00:00Z</StartDate>
+        <RelativeStopDate>-P210D</RelativeStopDate>
       </TimeSpan>
       <Cadence>PT0.0000046S</Cadence>
     </TemporalDescription>

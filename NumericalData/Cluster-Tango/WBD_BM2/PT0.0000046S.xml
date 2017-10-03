@@ -7,7 +7,7 @@
       <AlternateName>Cluster Tango Wideband (WBD) Data Plasma Wave Receiver/High Time Resolution Waveform Data Retrurned via BM2</AlternateName>
       <AlternateName>C4_CE_WBD_WAVEFORM_BM2_CDF</AlternateName>
       <AlternateName>C4_WAVEFORM_WBD_BM2</AlternateName>
-      <ReleaseDate>2017-10-02T17:00:00Z</ReleaseDate>
+      <ReleaseDate>2017-10-03T17:00:00Z</ReleaseDate>
       <Description>The following description applies to the Wideband Data (WBD) Plasma 
 Wave Receivers on all four Cluster satellites, each satellite being uniquely identified 
 by its number (1 through 4) or its given name (Rumba, Salsa, Samba, Tango, 
@@ -164,23 +164,27 @@ interpretation and caveat descriptions.</Description>
       <PriorID>spase://VWO/NumericalData/Cluster-Tango/WBD/Cluster_4_Waveform_WBD</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/NASA/GSFC/SPDF</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
-        <Name>CDAWeb FTP access to Cluster WBD CDFs</Name>
-        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/cluster/c4/wbd/</URL>
-        <Description>FTP access to repository of Cluster 4 WBD CDFs at NASA 
-CDAWeb. Name of the data resource: C4_WAVEFORM_WBD_BM2</Description>
+        <Name>FTP access to files at SPDF</Name>
+        <URL>ftp://cdaweb.gsfc.nasa.gov/pub/data/cluster/c4/wbd_bm2/</URL>
+        <Description>FTP access to repository of Cluster 4 WBD CDFs at NASA. Name of the data resource: C4_WAVEFORM_WBD_BM2</Description>
         <Language>en</Language>
       </AccessURL>
       <AccessURL>
-        <Name>CDAWeb web access portal to Cluster WBD CDF data</Name>
-        <URL>https://cdaweb.gsfc.nasa.gov/istp_public/</URL>
+        <Name>HTTP access to files at SPDF</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov/pub/data/cluster/c4/wbd_bm2/</URL>
         <ProductKey>C4_WAVEFORM_WBD_BM2</ProductKey>
-        <Description>Repository of Cluster 4 WBD data in CDF format at NASA CDAWeb, 
-accessible via web interface. Name of the data resource: 
-C4_WAVEFORM_WBD_BM2.</Description>
+        <Description>HTTP access to repository of Cluster 4 WBD CDFs at NASA. Name of the data resource: C4_WAVEFORM_WBD_BM2</Description>
+        <Language>en</Language>
+      </AccessURL>
+      <AccessURL>
+        <Name>CDAWeb</Name>
+        <URL>https://cdaweb.gsfc.nasa.gov</URL>
+        <ProductKey>C4_WAVEFORM_WBD_BM2</ProductKey>
+        <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb.</Description>
         <Language>en</Language>
       </AccessURL>
       <Format>CDF</Format>
